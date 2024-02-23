@@ -1,3 +1,5 @@
+## Ivan morales 2/23/24
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -62,5 +64,3 @@ ax.set_xlabel('Parents/children')
 ax.set_ylabel('Cantidad de Parch')
 
 st.pyplot(fig)
-
-
