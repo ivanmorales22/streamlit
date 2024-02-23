@@ -12,17 +12,6 @@ females=df[(df['Sex'] == 'female')]
 st.title('Analisis de Database del titanic')
 st.header('Analisis mediante Histogramas por Variable')
 
-# Select column for the histogram
-#selected_column = st.selectbox('Sex', df.columns)
-
-# Histogram
-#fig, ax = plt.subplots()
-#ax.hist(df[selected_column], bins=30, edgecolor='black')
-#ax.set_xlabel('Values')
-#ax.set_ylabel('Frequency')
-
-#st.pyplot(fig)
-
 #Mostramos el histograma de la division de pasajeros por sexo
 st.subheader('Cantidad de Pasajeros masculinos y femeninos')
 fig, ax = plt.subplots()
@@ -74,5 +63,4 @@ ax.set_ylabel('Cantidad de Parch')
 
 st.pyplot(fig)
 
-#Mostramos el histograma de la representacion de las edades
 
