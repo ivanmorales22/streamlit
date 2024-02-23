@@ -3,7 +3,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 path='/Users/ivanm/Downloads/train.csv'
 df=pd.read_csv(path)
 
