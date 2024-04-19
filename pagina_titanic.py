@@ -1,5 +1,6 @@
 ## Ivan morales 2/23/24
 
+pip install matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
