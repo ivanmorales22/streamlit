@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-path='/Users/ivanm/Downloads/train.csv'
+path='ivanmorales22/streamlit/test.csv'
 df=pd.read_csv(path)
 
 males=df[(df['Sex'] == 'male')]
